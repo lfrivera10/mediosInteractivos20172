@@ -69,8 +69,8 @@ function draw() {
   }
   else 
   {
-    d=0;
-  	ellipse(i+200+d,j+200,1,1)
+    d=15;
+  	ellipse(i+200+d,j+200,15,1)
     
   }
   
