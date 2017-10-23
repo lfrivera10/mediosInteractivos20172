@@ -7,7 +7,7 @@ var q = 0
 
 function preload() {
   //cargar cancion 
-  mySound = loadSound('assets/1.mp3');
+  mySound = loadSound('1.mp3');
 
 }
 
