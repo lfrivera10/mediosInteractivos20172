@@ -182,7 +182,7 @@ function draw() {
         
       var distMouse = dist(losParasitos[i].x, losParasitos[i].y, touches[j], touches[j])
 
-        if (distMouse<50)
+        if (distMouse<1000000)
       {
 
         losParasitos[i].morir();
