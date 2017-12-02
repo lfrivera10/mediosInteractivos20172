@@ -85,7 +85,7 @@ function draw() {
   {
 
    
-    image(portada,(windowWidth-windowHeight)/2,0,windowHeight,windowHeight);
+    image(portada,0,0,500,500);
    
   }
   
