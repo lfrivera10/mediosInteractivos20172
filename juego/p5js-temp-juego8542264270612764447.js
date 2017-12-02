@@ -180,7 +180,7 @@ function draw() {
       
       for (var j = 0; j < touches.length; j++) {
         
-      var distMouse = dist(losParasitos[i].x, losParasitos[i].y, touches[j], touches[j])
+      var distMouse = dist(losParasitos[i].x, losParasitos[i].y, touches[j].x, touches[j].j)
 
         if (distMouse<1000000)
       {
