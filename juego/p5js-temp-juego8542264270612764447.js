@@ -83,8 +83,9 @@ function draw() {
 
   if (estatus == intro)
   {
+
    
-    image(portada,(width-height)/2,0,height,height);
+    image(portada,(windowWidth-windowHeight)/2,0,windowHeight,windowHeight);
    
   }
   
@@ -182,7 +183,7 @@ function draw() {
         
       var distMouse = dist(losParasitos[i].x, losParasitos[i].y, touches[j].x, touches[j].j)
 
-        if (distMouse<1000000)
+        if (distMouse<10000000000000000000)
       {
 
         losParasitos[i].morir();
