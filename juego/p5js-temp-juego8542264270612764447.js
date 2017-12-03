@@ -83,9 +83,8 @@ function draw() {
 
   if (estatus == intro)
   {
-
    
-    image(portada,0,0,500,500);
+    image(portada,(width-height)/2,0,height,height);
    
   }
   
@@ -175,20 +174,24 @@ function draw() {
       escapeDerecha = false;
       escapeIzquierda = false;
       escape = 5000;
+      
     }
+   
     for (var i=0; i < numParasitos; i = i +1) {
       losParasitos[i].dibujarse();
       
-      for (var j = 0; j < touches.length; j++) {
-        
-      var distMouse = dist(losParasitos[i].x, losParasitos[i].y, touches[j].x, touches[j].j)
+      
+       for (var j = 0; j < touches.length; j++) {
 
-        if (distMouse<10000000000000000000)
-      {
+    if (dist(touches[j].x, touches[j].y, losParasitos[i].x , losParasitos[i].y) < 20) 
+    {
 
-        losParasitos[i].morir();
-      }
-      }
+      losParasitos[i].morir();
+      
+    }
+  }
+
+      
 
       for (var u=0; u < losK.length; u = u +1) 
       {
