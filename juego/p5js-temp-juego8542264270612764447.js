@@ -196,16 +196,14 @@ function draw() {
     for (var i=0; i < numParasitos; i = i +1) {
       losParasitos[i].dibujarse();
       
-      //recorre los toques sobre la pantalla 
-       for (var j = 1; j <= touches.length; j++) {
+            
 // si la distancia entre un toque y un zombie es menor a 20 pixeles lo mata 
-    //if (dist(touches[j].x, touches[j].y, losParasitos[i].x , losParasitos[i].y) < 20) 
-    //{
+    if (dist(mouseX, mouseY, losParasitos[i].x , losParasitos[i].y) < 20) 
+    {
 // ordena la muerte 
-     // losParasitos[i].morir();
+      losParasitos[i].morir();
       
-    //}
-  }
+    }
 
       for (var u=0; u < losK.length; u = u +1) 
       {
