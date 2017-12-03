@@ -181,7 +181,7 @@ function draw() {
       losParasitos[i].dibujarse();
       
       
-       for (var j = 0; j < touches.length; j++) {
+       for (var j = 0; j <= touches.length; j++) {
 
     if (dist(touches[j].x, touches[j].y, losParasitos[i].x , losParasitos[i].y) < 20) 
     {
