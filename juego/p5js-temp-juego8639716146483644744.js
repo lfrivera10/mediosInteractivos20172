@@ -10,6 +10,7 @@ var nivel5;
 var gano;
 var perdio;
 
+
 // array para guardar los numeros que permiten elegir de manera aleatoria las imagenes para los humanos y los zombies 
 var opciones = [1,2,3];
 
@@ -419,7 +420,7 @@ function parasito() {
   }
 }
 //modela la transicion entre todas las etapas menos la del juego 
-function touchEnded() {
+function touchStarted() {
   if (estatus == intro) 
   {
     estatus = nivel;
