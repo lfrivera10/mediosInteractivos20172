@@ -538,6 +538,7 @@ function mouseDragged() {
  if (estatus == juego)
  {
  matar = true;
+    return false
  }
    else {
   return false;}
