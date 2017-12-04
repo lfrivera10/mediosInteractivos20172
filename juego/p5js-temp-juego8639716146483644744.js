@@ -534,6 +534,6 @@ else if (estatus == derrota)
 }
 
 function mouseDragged() {
-   prevent default
+   //prevent default
   return false;
 }
