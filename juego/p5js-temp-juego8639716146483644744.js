@@ -533,7 +533,7 @@ else if (estatus == derrota)
 }
 }
 
-function mouseDragged() {
+//function mouseDragged() {
   // prevent default
-  return false;
-}
+  //return false;
+//}
