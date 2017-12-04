@@ -93,7 +93,8 @@ function draw() {
   if (estatus == intro)
   {
    // solo se muestra la imagen de la portada
-    image(z1,0,0,100,100);
+     var intento =loadImage("assets/portada.png");
+    image(intento,0,0,100,100);
    
   }
   // lo que sucede  cuando se esta jugando 
