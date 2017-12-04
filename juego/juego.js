@@ -94,7 +94,7 @@ function draw() {
   {
    // solo se muestra la imagen de la portada
   
-    image(portada,(width-height)/2,0,100,100);
+    image(portada,(width-height)/2,0,height,height);
    
   }
   // lo que sucede  cuando se esta jugando 
