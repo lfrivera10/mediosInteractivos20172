@@ -419,7 +419,7 @@ function parasito() {
   }
 }
 //modela la transicion entre todas las etapas menos la del juego 
-function touchEnded() {
+function touchStarted() {
   if (estatus == intro) 
   {
     estatus = nivel;
