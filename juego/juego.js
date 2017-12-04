@@ -33,6 +33,7 @@ var relajado = false;
 
 var s = 0;
 var d = 0;
+var matar = false;
 
 // variables para controlar el flujo del juego de intro hasta el final 
 
@@ -199,9 +200,9 @@ function draw() {
       
       //recorre los toques sobre la pantalla 
    
-        
+    
 // si la distancia entre un toque y un zombie es menor a 20 pixeles lo mata 
-    if (dist(mouseX, mouseY, losParasitos[i].x , losParasitos[i].y) < 100) 
+    if (dist(mouseX, mouseY, losParasitos[i].x , losParasitos[i].y) < 100 &&  matar) 
     {
 // ordena la muerte 
       losParasitos[i].morir();
@@ -534,6 +535,14 @@ else if (estatus == derrota)
 }
 
 function mouseDragged() {
-  // prevent default
-  return false;
+ if (estatus == juego)
+ {
+ matar = true;
+ }
+   else {
+  return false;}
+}
+function touchEnded()
+{
+var matar = false;
 }
