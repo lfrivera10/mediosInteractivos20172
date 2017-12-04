@@ -93,7 +93,7 @@ function draw() {
   if (estatus == intro)
   {
    // solo se muestra la imagen de la portada
-    image(portada,(width-height)/2,0,height,height);
+    image(portada,0,0,height,height);
    
   }
   // lo que sucede  cuando se esta jugando 
