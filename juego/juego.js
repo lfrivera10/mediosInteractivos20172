@@ -58,15 +58,15 @@ function preload() {
    
    // se cargan las imagenes para las diferentes etapas del juego
    
-   portada = loadImage("assets/portada.png");
-   instrucciones = loadImage("assets/instrucciones.png");
-   nivel1 = loadImage("assets/nivel1.png");
-   nivel2 = loadImage("assets/nivel2.png");
-   nivel3 = loadImage("assets/nivel3.png");
-   nivel4 = loadImage("assets/nivel4.png");
-   nivel5 = loadImage("assets/nivel5.png");
-   gano = loadImage("assets/victoria.png");
-   perdio = loadImage("assets/derrota.png");
+   portada = loadImage("assets/portada.jpg");
+   instrucciones = loadImage("assets/instrucciones.jpg");
+   nivel1 = loadImage("assets/nivel1.jpg");
+   nivel2 = loadImage("assets/nivel2.jpg");
+   nivel3 = loadImage("assets/nivel3.jpg");
+   nivel4 = loadImage("assets/nivel4.jpg");
+   nivel5 = loadImage("assets/nivel5.jpg");
+   gano = loadImage("assets/victoria.jpg");
+   perdio = loadImage("assets/derrota.jpg");
 
 
 }
