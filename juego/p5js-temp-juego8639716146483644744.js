@@ -76,7 +76,7 @@ function setup() {
    // se define el estatus como 0 que significa que esta en el intro
   estatus = 0;
    // canvas del tamaño de la pantalla
-  createCanvas(windowWidth, windowHeight); 
+  createCanvas(1136, 640); 
   //creo las los killers
   for (var i=0; i<numK; i=i+1) {
     losK[i] = new killer();
@@ -533,7 +533,7 @@ else if (estatus == derrota)
 }
 }
 
-//function mouseDragged() {
-  // prevent default
-  //return false;
-//}
+function mouseDragged() {
+   prevent default
+  return false;
+}
