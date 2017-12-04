@@ -201,7 +201,7 @@ function draw() {
    
         
 // si la distancia entre un toque y un zombie es menor a 20 pixeles lo mata 
-    if (dist(mouseX, mouseY, losParasitos[i].x , losParasitos[i].y) < 100) 
+    if (dist(mouseX, mouseY, losParasitos[i].x , losParasitos[i].y) < 20) 
     {
 // ordena la muerte 
       losParasitos[i].morir();
